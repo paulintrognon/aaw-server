@@ -2,7 +2,7 @@
 
 var config = {
   logger: {
-    level: "info"
+    level: "debug"
   },
   server: {
     port: 3000
