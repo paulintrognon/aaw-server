@@ -3,5 +3,8 @@
   "version": "0.1.0",
   "description": "Armies At War / API",
   "author": "Paulin Trognon <paulin.trognon@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.2"
+  }
 }
