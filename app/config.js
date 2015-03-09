@@ -1,5 +1,9 @@
 "use strict";
 
-var config = {};
+var config = {
+  logger: {
+    level: "info"
+  }
+};
 
 module.exports = config;
