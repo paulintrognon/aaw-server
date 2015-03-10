@@ -1,4 +1,4 @@
-"use stict";
+"use strict";
 
 var config = require('./config').logger,
   bunyan = require('bunyan');
