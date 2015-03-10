@@ -17,6 +17,6 @@ router.use(function(req, res, next) {
 var apiController = require('./controllers/apiController').construct();
 
 // Hello World
-router.get('/', apiController.ping);
+router.get('/', apiController.action('ping'));
 
 module.exports = router;
