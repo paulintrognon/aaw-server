@@ -13,9 +13,10 @@ router.use(function(req, res, next) {
   next(); // make sure we go to the next routes and don't stop here
 });
 
+// Linking controllers to routes
+var apiController = require('./controllers/apiController').construct();
+
 // Hello World
-router.get('/', function(req, res) {
-  res.json({ message: 'Welcome to aaw-server\'s API root!' });
-});
+router.get('/', apiController.ping);
 
 module.exports = router;
